@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Space Mono', sans-serif;
+}
+
+body {
+  font-family: 'Space Mono', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f0ff;
+  backdrop-filter: blur(5px); 
+}
+
+.login-page {
+  background-color: #3679de !important; /* Light blue background for the page */
+  backdrop-filter: blur(5px);
+}
+
+.login-container,
+.register-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #b3d9ff; 
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h1,
+.register-container h1 {
+  margin-bottom: 30px;
+}
+
+.login-container form,
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container input,
+.register-container input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Space Mono', sans-serif;
+}
+
+.login-container button,
+.register-container button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #fff;;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Space Mono', sans-serif;
+}
+
+.login-container a,
+.register-container a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set color to black */
+  font-style: italic; /* Set font style to italic */
+  margin-top: 10px; /* Add some spacing from the top */
+  display: inline-block; /* Display as an inline-level block */
+}
+
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right : 10px;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  margin-top: 20px;
+  width: 70%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.product-card {
+  background-color: #ffffff;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #fefefe;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+  color: #333;
+  width: 100%;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image-home {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-details-home {
+  padding: 10px;
+}
+
+.product-title-home {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.product-price-home {
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+.product-page {
+  display: flex;
+  flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px; /* Adjusted margin for responsiveness */
+}
+
+.product-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #b3d9ff;
+}
+
+.product-details {
+  width: 100%;
+  color: #0d0d0d;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.product-price {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  color: #090909;
+  margin-bottom: 10px;
+}
+
+
